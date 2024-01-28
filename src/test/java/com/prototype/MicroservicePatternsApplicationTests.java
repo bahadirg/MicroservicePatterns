@@ -46,7 +46,6 @@ class MicroservicePatternsApplicationTests {
 	void contextLoads() {
 	}
 	
-	@Disabled
 	@Test
 	public void test1_ServiceRegistryAccess() {
 		
@@ -56,7 +55,6 @@ class MicroservicePatternsApplicationTests {
 	}
 	
 	
-	@Disabled
 	@Test
 	public void test2_CircuitBreaker() {
 		
@@ -105,7 +103,6 @@ class MicroservicePatternsApplicationTests {
 		}	
 	}
 	
-	@Disabled
 	@Test
 	public void test3_Retry() {
 		
@@ -120,7 +117,6 @@ class MicroservicePatternsApplicationTests {
 		}
 	}
 
-	@Disabled
 	@Test
 	public void test4_TimeLimit() {
 		
@@ -148,7 +144,6 @@ class MicroservicePatternsApplicationTests {
 		}
 	}
 	
-	@Disabled
 	@Test
 	public void test5_Bulkhead() {
 		
@@ -187,7 +182,6 @@ class MicroservicePatternsApplicationTests {
 		
 	}
 	
-	@Disabled
 	@Test
 	public void test6_RateLimiter() {
 		
