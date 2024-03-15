@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import io.github.resilience4j.bulkhead.annotation.Bulkhead;
-
 @FeignClient(name = "my-spring-cloud-eureka-client")
 public interface PatternCallerClient {
 
