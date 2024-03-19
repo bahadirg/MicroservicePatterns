@@ -9,13 +9,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import io.github.resilience4j.bulkhead.annotation.Bulkhead;
 import io.github.resilience4j.bulkhead.annotation.Bulkhead.Type;
 import io.github.resilience4j.timelimiter.annotation.TimeLimiter;
 
-@Controller
+@RestController
 public class TimeLimiterPattern {
 	
 	@Autowired
